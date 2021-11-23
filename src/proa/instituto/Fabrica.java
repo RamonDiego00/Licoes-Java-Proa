@@ -21,7 +21,7 @@ public class Fabrica {
         System.out.println("Vai Querer Quantas Bebidas de 2l?");
         Vtipo3 = in.nextInt();
         //Processamento
-        float mls = (Vtipo1 * tipo1) + (Vtipo2 * tipo2) + (Vtipo3 + tipo3);
+        float mls = (Vtipo1 * tipo1) + (Vtipo2 * tipo2) + (Vtipo3 * tipo3);
         //Saida
         System.out.println(" Você comprou " + Math.round(mls) + "L aproximadamente");
     }
